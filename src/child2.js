@@ -6,7 +6,7 @@ function Child2() {
     let [state, dispatch] = useReducer(reducer, 0)
     return (
         <div>
-            <h1>This is the second child counter</h1>
+            <h1>Second child counter</h1>
 
             <h1>value of reducer count is: {state}</h1>
 
